@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Dashboard</title>
+</head>
+<body>
+
+  <style>
+
+  
+body{
+    background-color: black;
+    color: rgb(0, 238, 91);
+  }
+
+  nav{
+    background-color: black;
+    color: rgb(0, 238, 91);
+
+  }
+
+
+  .Title{
+    background-color: black;
+    color: rgb(0, 238, 91);
+   
+  }
+
+
+  .navigationbar{
+    background-color: black;
+    color: rgb(0, 238, 91);
+  }
+
+
+  .navigationbar a {
+    background-color: black;
+    color: rgb(0, 238, 91);
+  }
+
+
+
+  .TableRow{
+    background-color: black;
+    color: rgb(0, 238, 91);
+    border: 1px solid  rgb(24, 82, 46);
+
+  }
+
+
+  .TableRow thead{
+    background-color: black;
+    color: rgb(0, 238, 91);
+    border: 1px solid  rgb(24, 82, 46);
+
+  }
+
+
+  .TableRow tr{
+    background-color: black;
+    color: rgb(0, 238, 91);
+    border: 1px solid  rgb(24, 82, 46);
+
+  }
+
+
+  .TableRow th{
+    background-color: black;
+    color: rgb(0, 238, 91);
+    border: 1px solid  rgb(24, 82, 46);
+
+  }
+
+
+.dropitem{
+    background-color: rgb(19, 250, 69);
+    color: rgb(0, 0, 0);
+}
+
+
+.dropitem :hover{
+    background-color: rgb(0, 255, 55);
+    color: rgb(0, 0, 0);
+}
+
+
+  .StatusBlink{
+    color: rgb(226, 230, 2);
+
+  }
+
+
+  </style>
+
+<!-- Button trigger modal -->
+<!--
+
+1. Do you have College Today?
+2. Do you have any learning, homework, assignment from college?
+3. Do you have any Assignments to do for AssignmentHelp?
+4. Do you have any support tasks to do for AssignmentHelp?
+5. Do you have Eches Consultancy Internship today?
+6. Do you have any Specific tasks to do for Eches Consultancy?
+7. Would you like to do any Special Learning today?
+
+
+
+a. Clique College a College maintained by Click maldives pvt ltd. It is located in Male' City, it is a controlled enviroment
+   that teaches within the perimeters governed by the standards set by Maldives Qualifications Authority (MQA). 
+   You will study / work with similar minds with differing political beliefs and life experiences.
+   There will be unnessesary distractions from other people. However, you will have access to nearly limitless 
+   knowledge that can be collected from the  College's Interal network and from experienced lecturers.
+
+
+b. AssignmentHelp is a Academic Prostitution Network started by Ex-intelligence officer, initials A-L. Callsign: Dhoanu
+   AssignmentHelp provides profesional writing service on varying degrees. You serve them by doing assignments for the
+   following fields
+   
+   1. Psychology.
+   2. Teaching.
+   3. Applied Science.
+   4. Law.
+   5. Buisness Administration.
+   6. Information Technology
+
+
+   Future dimensions to learn :
+
+   1. Statistics
+   2. Accounting
+
+
+
+c. Eches Consultancy is a Software consultancy private limited that is managed by Hussain Shihab. You work there to
+   as an IT Intern. As an IT Intern, You are to learn about SAP Buisness One and The Organisation's Propetiary POS 
+   Softwares. Every month you earn a 3000MVR paycheck with bonuses for over-time, no leaves.
+
+   The time for the Internship is limited, as You will travel to Singapore or India for the Final Test in December.
+   So make it a priority to complete your studies.
+
+
+
+
+
+    -->
+      
+
+
+    <nav class="navbar navbar-expand-lg navigationbar">
+      <a class="navbar-brand" href="#">Scheduler</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="Dashboard.html" ><span class="sr-only">(current)</span>Dashboard</a>
+          </li>
+
+
+          <li class="nav-item">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Schedule
+                  </a>
+                  <div class="dropdown-menu dropitem" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item dropitem" href="Sunday.html">Sunday</a>
+                    <a class="dropdown-item dropitem" href="Monday.html">Monday</a>
+                    <a class="dropdown-item dropitem" href="Tuesday.html">Tuesday</a>
+                    <a class="dropdown-item dropitem" href="Wednesday.html">Wednesday</a>
+                    <a class="dropdown-item dropitem" href="Thursday.html">Thursday</a>
+                    <a class="dropdown-item dropitem" href="Friday.html">Friday</a>
+                    <a class="dropdown-item dropitem" href="Saturday.html">Saturday</a>
+                    <a class="dropdown-item dropitem" href="PublicHoliday.html">Public Holidays</a>
+                  </div>
+                </li>
+          </li>
+
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Humanity
+            </a>
+            <div class="dropdown-menu dropitem" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item dropitem" href="WhyDayJob.html">Why Day Job?</a>
+              <a class="dropdown-item dropitem" href="WhyAssignmentHelp.html">Why Assignmenthelp?</a>
+              <a class="dropdown-item dropitem" href="WhyCollege.html">Why College?</a>
+              <a class="dropdown-item dropitem" href="Aims.html">Aims</a>
+              <a class="dropdown-item dropitem" href="About.html">About</a>
+            </div>
+          </li>
+
+
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Networks
+              </a>
+              <div class="dropdown-menu dropitem" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item dropitem" href="MasterNetwork.php">Master Network</a>
+                <a class="dropdown-item dropitem" href="VideoNetwork.php">Video Network</a>
+                <a class="dropdown-item dropitem" href="SocialNetwork.php">Facebook Network</a>
+              </div>
+            </li>
+
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <div class="jumbotron Title">
+        <h1 class="display-4">Dashboard</h1>
+      </div>
+
+      
+
+      <div class="container" style="margin:10px; padding:20px;">
+        <div class="row">
+          <div class="col-sm-5">
+            <p style="color:black;">text</p>
+          </div>
+          <div class="col-sm-2">
+            <p id="DigitalClock"></p>
+          </div>
+          <div class="col-sm-5">
+            <p style="color:black;">text</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="container" style="margin:10px; padding:20px;">
+        <div class="row">
+          <div class="col-sm">
+            <button type="button" class="btn btn-success" onclick ="ProcessTodaysSchedule()">Get Today's Schedule</button>
+          </div>
+          <div class="col-sm">
+            <p style="color:black;">text</p>
+          </div>
+          <div class="col-sm">
+            <button type="button" class="btn btn-success" onclick='window.location.assign("MasterNetwork.php");'>Access Master Network</button>
+          </div>
+          <div class="col-sm">
+            <p style="color:black;">text</p>
+          </div>
+          <div class="col-sm">
+            <button type="button" class="btn btn-success">Review Humanity</button>
+          </div>
+        </div>
+      </div>
+
+<script>
+
+function ProcessTodaysSchedule(){
+
+  switch (new Date().getDay()) {
+  case 0:
+  window.location.assign("Sunday.html");
+    break;
+  case 1:
+  window.location.assign("Monday.html");
+    break;
+  case 2:
+  window.location.assign("Tuesday.html");
+    break;
+  case 3:
+  window.location.assign("Wednesday.html");
+    break;
+  case 4:
+  window.location.assign("Thursday.html");
+    break;
+  case 5:
+  window.location.assign("Friday.html");
+    break;
+  case 6:
+  window.location.assign("Saturday.html");
+    break;
+  default:
+    alert("Scheduler is unable to verify the Current date");
+} 
+
+}
+
+
+function ClockGear(){
+
+  var a = new Date();
+  document.getElementById('DigitalClock').innerHTML= a;
+
+}
+
+setInterval(ClockGear, 1000);
+
+</script>
+
+
+</body>
+</html>
